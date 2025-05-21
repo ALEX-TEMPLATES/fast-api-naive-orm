@@ -13,6 +13,7 @@ graph TD
     S --> D[DAO]
     S --> DTO
     D --> SC[Schemas]
+    D --> DTO
     DTO -.-> ALL[Available to all layers]
 
     classDef api fill:#f96,stroke:#333,stroke-width:2px;
